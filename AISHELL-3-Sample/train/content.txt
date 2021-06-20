@@ -1,0 +1,40 @@
+SSB00090030.wav	碗 wan2 碗 wan3 香 xiang1
+SSB00090138.wav	包 bao1 你 ni3 留 liu2 着 zhe5 吧 ba5
+SSB00090164.wav	名 ming2 次 ci4
+SSB00090176.wav	自 zi4 动 dong4 风 feng1
+SSB00090179.wav	一 yi1
+SSB00090221.wav	二 er4
+SSB00090229.wav	漂 piao4 亮 liang4 的 de5 你 ni3
+SSB00090369.wav	漂 piao1 移 yi2 王 wang2
+SSB00090400.wav	你 ni3 投 tou2 了 le5 票 piao4 的 de5
+SSB17110036.wav	咬 yao3 不 bu4 得 de2 高 gao1 祖 zu3 生 sheng1 煎 jian1 体 ti3 育 yu4 场 chang3 路 lu4 店 dian4
+SSB17110047.wav	零 ling2 一 yi1 幺 yao1 九 jiu3 七 qi1 三 san1 幺 yao1 零 ling2 五 wu3 幺 yao1 零 ling2
+SSB17110049.wav	五 wu3 七 qi1 七 qi1 四 si4 三 san1 幺 yao1 七 qi1 幺 yao1 零 ling2 四 si4 五 wu3
+SSB17110076.wav	放 fang4 音 yin1 乐 yue4 世 shi4 界 jie4 第 di4 一 yi1 等 deng3
+SSB17110112.wav	四 si4 五 wu3 六 liu4 七 qi1 一 yi1 零 ling2 一 yi1 零 ling2 七 qi1 一 yi1 四 si4
+SSB17110133.wav	杭 hang2 州 zhou1 之 zhi1 江 jiang1 金 jin1 都 du1 极 ji2 地 di4 海 hai3 洋 yang2 公 gong1 园 yuan2
+SSB17110153.wav	放 fang4 音 yin1 乐 yue4 我 wo3 真 zhen1 的 de5 受 shou4 伤 shang1 了 le5
+SSB17110159.wav	太 tai4 平 ping2 洋 yang2 商 shang1 业 ye4 中 zhong1 心 xin1
+SSB17110160.wav	放 fang4 音 yin1 乐 yue4 倩 qian4 女 nv3 幽 you1 魂 hun2
+SSB17110162.wav	恋 lian4 恋 lian4 东 dong1 丽 li4 湖 hu2
+SSB17110189.wav	放 fang4 音 yin1 乐 yue4 当 dang1
+SSB17110221.wav	恋 lian4 话 hua4
+SSB17110238.wav	苏 su1 宁 ning2 电 dian4 器 qi4 江 jiang1 南 nan2 大 da4 道 dao4 店 dian4
+SSB17110255.wav	放 fang4 音 yin1 乐 yue4 忘 wang4 记 ji4 你 ni2 我 wo3 做 zuo4 不 bu2 到 dao4
+SSB17110275.wav	放 fang4 音 yin1 乐 yue4 花 hua1 心 xin1
+SSB17110285.wav	零 ling2 三 san1 四 si4 七 qi1 幺 yao1 零 ling2 七 qi1 二 er4 六 liu4 五 wu3 零 ling2
+SSB17110306.wav	新 xin1 发 fa1 现 xian4 餐 can1 厅 ting1
+SSB17110326.wav	七 qi1 六 liu4 零 ling2 幺 yao1 七 qi1 九 jiu2 五 wu2 五 wu3 四 si4 一 yi1 七 qi1
+SSB17110331.wav	品 pin3 正 zheng4 中 zhong1 茶 cha2
+SSB17110342.wav	外 wai4 婆 po2 家 jia1 餐 can1 厅 ting1 华 hua2 浙 zhe4 店 dian4
+SSB17110346.wav	六 liu4 七 qi1 九 jiu3 七 qi1 七 qi1 零 ling2 五 wu3 七 qi1 九 jiu3 三 san1 六 liu4
+SSB17110348.wav	放 fang4 音 yin1 乐 yue4 吻 wen3 别 bie2
+SSB17110354.wav	放 fang4 音 yin1 乐 yue4 牵 qian1 手 shou3
+SSB17110362.wav	七 qi1 三 san1 零 ling2 一 yi1 九 jiu3 一 yi1 一 yi1 一 yi1 一 yu1 七 qi1 零 ling2 七 qi1
+SSB17110407.wav	品 pin3 轩 xuan1
+SSB17110429.wav	九 jiu3 四 si4 零 ling2 七 qi1 五 wu3 一 yi1 幺 yao1 九 jiu3 七 qi1 三 san1 九 jiu3
+SSB17110455.wav	丁 ding1 哥 ge1 黑 hei1 鱼 yu2 馆 guan3 下 xia4 沙 sha1 店 dian4
+SSB17110458.wav	放 fang4 音 yin1 乐 yue4 大 da4 地 di4
+SSB17110459.wav	恋 lian4 极 ji2 星 xing1
+SSB17110469.wav	东 dong1 天 tian1 目 mu4 山 shan1 景 jing3 区 qu1
+SSB17110483.wav	苏 su1 宁 ning2 电 dian4 器 qi4 省 sheng3 家 jia1 电 dian4 市 shi4 场 chang3 店 dian4

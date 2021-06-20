@@ -1,0 +1,100 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 2.263990929705215
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0
+		xmax = 2.263990929705215
+		intervals: size = 6
+			intervals [1]:
+				xmin = 0.0
+				xmax = 0.370
+				text = ""
+			intervals [2]:
+				xmin = 0.370
+				xmax = 0.750
+				text = "pin3"
+			intervals [3]:
+				xmin = 0.750
+				xmax = 1.040
+				text = "zheng4"
+			intervals [4]:
+				xmin = 1.040
+				xmax = 1.300
+				text = "zhong1"
+			intervals [5]:
+				xmin = 1.300
+				xmax = 1.840
+				text = "cha2"
+			intervals [6]:
+				xmin = 1.840
+				xmax = 2.263990929705215
+				text = ""
+	item [2]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0
+		xmax = 2.263990929705215
+		intervals: size = 14
+			intervals [1]:
+				xmin = 0.000
+				xmax = 0.370
+				text = "sil"
+			intervals [2]:
+				xmin = 0.370
+				xmax = 0.500
+				text = "p"
+			intervals [3]:
+				xmin = 0.500
+				xmax = 0.620
+				text = "i3"
+			intervals [4]:
+				xmin = 0.620
+				xmax = 0.750
+				text = "n"
+			intervals [5]:
+				xmin = 0.750
+				xmax = 0.820
+				text = "zh"
+			intervals [6]:
+				xmin = 0.820
+				xmax = 0.900
+				text = "e4"
+			intervals [7]:
+				xmin = 0.900
+				xmax = 1.040
+				text = "ng"
+			intervals [8]:
+				xmin = 1.040
+				xmax = 1.110
+				text = "zh"
+			intervals [9]:
+				xmin = 1.110
+				xmax = 1.160
+				text = "o1"
+			intervals [10]:
+				xmin = 1.160
+				xmax = 1.300
+				text = "ng"
+			intervals [11]:
+				xmin = 1.300
+				xmax = 1.440
+				text = "ch"
+			intervals [12]:
+				xmin = 1.440
+				xmax = 1.840
+				text = "a2"
+			intervals [13]:
+				xmin = 1.840
+				xmax = 2.250
+				text = "sp"
+			intervals [14]:
+				xmin = 2.250
+				xmax = 2.263990929705215
+				text = ""
