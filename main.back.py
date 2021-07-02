@@ -1,35 +1,18 @@
 
 
-#2021-07-02,10点22
-#==========代码进行了整合. 只运行这一个脚本就够了.他内部会调用整套流程的其他代码.
-
-'''
 
 
-#=========第0步:准备数据:
 
 
-# 数据集下载位置:
-# - [AISHELL-3](http://www.aishelltech.com/aishell_3): a Mandarin TTS dataset with 218 male and female speakers, roughly 85 hours in total.
 
 
-#我们把数据放入AISHELL-3-Sample文件夹里面
-#这里面我使用的是一个这个标准数据集里面的一个小样本作为演示.整个数据集16个G
-#数据内容讲解:
-
-文件夹里面有test和train然后里面一个文件夹是wav.里面的文件夹是用户id
-比如SSB0009, 然后文件夹里面是所有的这个人的语音文件 比如:SSB00090030.wav
-文件的命名规则是前面是他的用户id,后4位表示语音id.
-比如上面就是SSB0009这个人说的30号语音文件.
-
-content.txt就是标签数据. 里面给的文字和汉语拼音.都是用空格进行分割.
-
-readme是我自己写的注释文件,可以删除也可以放着不管.不会影响项目本身.
 
 
-'''
 
-# ==================第一步: 文件写入raw_path # 这一步是为了抽取数据中的拼音信息.对于tts而言文字是没用的.拼音提供的信息足够表达输入了.然后转化为音素信息存储下来.
+
+
+
+# ==================第一步: 文件写入raw_path
 
 import argparse
 # https://www.openslr.org/resources/93/data_aishell3.tgz  扔迅雷里面很快.
@@ -38,16 +21,15 @@ import yaml
 from preprocessor import ljspeech, aishell3, libritts
 
 
+def main(config):
+    if "LJSpeech" in config["dataset"]:
+        ljspeech.prepare_align(config)
+    if "AISHELL3" in config["dataset"]:
+        aishell3.prepare_align(config)
+    if "LibriTTS" in config["dataset"]:
+        libritts.prepare_align(config)
 
-
-if 1:
-    def main(config):
-        if "LJSpeech" in config["dataset"]:
-            ljspeech.prepare_align(config)
-        if "AISHELL3" in config["dataset"]:
-            aishell3.prepare_align(config)
-        if "LibriTTS" in config["dataset"]:
-            libritts.prepare_align(config)
+if 0:
     if __name__ == "__main__":
         parser = argparse.ArgumentParser()
 
@@ -55,14 +37,14 @@ if 1:
         args.config='config/AISHELL3/preprocess.yaml'
 
 
-        config = yaml.load(open(args.config, "r"), Loader=yaml.FullLoader)#导入默认的配置文件.这里面不在原始项目上改yaml是为了不影响其他项目使用这些原始配置.
-        config['path']['lexicon_path'] = 'lexicon/madarin_lexicon.txt' # 设置好字典所在的位置. 这个字典里面每一行的左边表示一个汉语拼音, 右边表示拆分声母韵母之后的音素. 音素的数量比拼音的数量小多了. 转化为音素会提高模型质量.降低训练难度.
+        config = yaml.load(open(args.config, "r"), Loader=yaml.FullLoader)
+        config['path']['lexicon_path'] = 'lexicon/madarin_lexicon.txt'
         config['path']['corpus_path']='AISHELL-3-Sample'
         config['path']['raw_path']='raw_path/AISHELL-3-Sample'
         # config['path']['lexicon_path']='AISHELL-3-Sample/train/label_train-set.txt'
         config['dataset']='AISHELL3'
         main(config)
-print('第一步完成.')
+
 #=====================现在文件都写入了raw_path里面.
 
 
